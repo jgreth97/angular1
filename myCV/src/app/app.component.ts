@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-cv';
-  Name = 'Jackson Grether'
-  Address = ' 4860 Avondale Ridge Drive'
-  Phone= ' 614-849-2716'
-  Email= ' Jackgrether@gmail.com'
-  WorkExperience =' Homeless'
+  Name: string = "Jackson Grether";
+  Address: string =  "4860 Avondale Ridge Drive";
+  Phone: string = " 614-849-2716";
+  Email: string = "Jackgrether@gmail.com";
+  displayEducation: boolean = true;
 }
